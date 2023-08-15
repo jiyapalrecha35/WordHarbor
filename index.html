@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>WordHarbor : Exploring Words, Creating Worlds</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #d5d5fc;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 px-2 h1">WordHarbor</span>
+        </div>
+    </nav>
+    
+    <div class="contain">
+        <div class="searchBox">
+            <input type="text" placeholder="Type your word here.." id="inpWord" />
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
